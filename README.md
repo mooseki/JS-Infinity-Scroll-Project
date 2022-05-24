@@ -23,7 +23,7 @@ You don't have to include this section but interviewers *love* that you can not 
 ## Lessons Learned:
 
 **Creating custom animated loading icon** using a website called Loading.io. They have a very easy to use interface where you can adjust a number of different settings and output in a number of different formats using the free or paid options provided. This is a great opportunity to add my own personal style to any project like a custom color theme that matches a certain brand. Eventually, I can download the custom image as an animated SVG image. SVG uses coordinates in 2D space to create lines and shapes with the main benefit being that the file sizes are smaller and I can make an SVG any size and it would look just as sharp when we zoom.
-
+**Using Unsplash API** to set up the functionality of our project which allows us to return high quality random images and that will allow us to showcase our infinite scroll functionality.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
