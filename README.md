@@ -9,16 +9,16 @@ The goal of this project is to learn how to implement infinite scroll functional
 
 **Tech used:** HTML, CSS, JavaScript, Unsplash Image API
 
-The immages are photos fetched from the unsplash image API and we are tracking the moment all the images are loaded in order to dynamically hide our loading animation. It is one long column of images with a margin on the left and right. As we scroll closer to the bottom, if you watch the scroll bar on the right, you are going to see it jump up when the next network request is made and we are fetching more images to give a totally seamless experiance. 
+The images are photos fetched from the unsplash image API and we are tracking the moment all the images are loaded in order to dynamically hide our loading animation. It is one long column of images with a margin on the left and right. As we scroll closer to the bottom, if you watch the scroll bar on the right, you are going to see it jump up when the next network request is made and we are fetching more images to give a totally seamless experiance. 
 
 If we hover over an image we can see a description and if we click on the image we can see that image on the unsplah website so that we can see the author or download the photo if we want. Lastly, if we open up our dev tools, we can see it is mobile responsive as well, so instead of having big margin on the left and right in a mobile device, we just have a 10 pixel margin all the way around to so that it will look great on mobile as well. 
 
 Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+*Using developer tools to improve performance* of the website because not every user has good internet connection. To improve user experience and have good SEO ranking we do analysis by going to 'Network' where we can see that it is taking forever to load many photos at once. Based on that, we can learn that the easiest thing to do here, for example, is to just grab one item instead of 30 photos and then loading up the page.
+
 
 ## Lessons Learned:
 
