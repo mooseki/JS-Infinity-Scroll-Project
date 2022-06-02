@@ -1,7 +1,7 @@
 # Infinity Scroll Project Overview
 The goal of this project is to learn how to implement infinite scroll functionality. This is something that happens on social media as the user scrolls near the bottom of the page, another network request is made, but it happens before you reach the bottom so it feels like you are seamlessly scrolling forever. 
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://mooseki.github.io/JS-Infinity-Scroll-Project/
 
 ![alt tag](http://placecorgi.com/1200/650)
 
@@ -13,11 +13,10 @@ The images are photos fetched from the unsplash image API and we are tracking th
 
 If we hover over an image we can see a description and if we click on the image we can see that image on the unsplah website so that we can see the author or download the photo if we want. Lastly, if we open up our dev tools, we can see it is mobile responsive as well, so instead of having big margin on the left and right in a mobile device, we just have a 10 pixel margin all the way around to so that it will look great on mobile as well. 
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
 ## Optimizations
 
-*Using developer tools to improve performance* of the website because not every user has good internet connection. To improve user experience and have good SEO ranking we do analysis by going to 'Network' where we can see that it is taking forever to load many photos at once. Based on that, we can learn that the easiest thing to do here, for example, is to just grab one item instead of 30 photos and then loading up the page.
+**Using developer tools to improve performance** of the website because not every user has good internet connection. To improve user experience and have good SEO ranking we do analysis by going to 'Network' where we can see that it is taking forever to load many photos at once. Based on that, we can learn that the easiest thing to do here, for example, is to just grab one item instead of 30 photos and then loading up the page.
 
 
 ## Lessons Learned:
@@ -30,11 +29,11 @@ Here's where you can go to town on how you actually built this thing. Write as m
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
+**Random Quote Generator:** https://mooseki.github.io/JS-Random-Quote-Generator-Project/
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+**Picture-in-Picture:** https://github.com/mooseki/JS-Picture-In-Picture-Project.git
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**Joke Teller:** #
 
 
 
